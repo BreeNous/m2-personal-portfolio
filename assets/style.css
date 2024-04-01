@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    padding-left: 0px;
+    background-color: teal;
+    align-items: center;
+    
+}
+
+.header h1 {
+    background-color: white;
+    padding-left: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    padding-right: 100px;
+}
+
+header li {
+    padding: 5px;
+    margin-left: 35px;
+    border-bottom: 2px solid white;
+    
+    
+    
+    
+}
+
