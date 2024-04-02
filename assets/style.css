@@ -42,7 +42,6 @@ header li {
     background-size: cover;
     background-position: center;
     position: relative;
-
 }
 
 .hero h2 {
@@ -68,9 +67,10 @@ header li {
 .section {
     display: flex;
     
+    
 }
-section h3 {
-    display: block;
+h3 {
+    display: flex;
     text-align: end;
     padding-right: 15px;
     border-right: solid 3px black;
@@ -81,12 +81,22 @@ section h3 {
 .about-me-text {
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
+    padding: 0px 20px 20px 20px
+    
 }
 
 /*code below is for work section only */
 
 .work {
+    max-width: 500px;
     padding-left: 20px;
+}
+
+.img {
+    max-width: 500px;
+}
+
+section ul {
+    list-style: none;
 }
 
