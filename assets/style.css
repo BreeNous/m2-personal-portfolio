@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Code below is for the header portion of the project */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    padding-left: 0px;
+    background-color: teal;
+    align-items: center;
+}
+
+.header h1 {
+    background-color: white;
+    padding-left: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    padding-right: 100px;
+}
+
+header li {
+    padding: 5px;
+    margin-left: 35px;
+    border-bottom: 2px solid white; 
+}
+/* Code below is for the div portion of the project */
+
+.hero {
+    height: 250px;
+    margin-bottom: 30px;
+    background-image: url(../assets/Images/alex-shutin-kKvQJ6rK6S4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.hero h2 {
+    display:inline-block;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    top: 70%;
+    left: 80%;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    
+    
+}
+
+/* Code below is for all sections sections */
+.section {
+    display: flex;
+    
+}
+section h3 {
+    display: block;
+    text-align: end;
+    padding-right: 15px;
+    border-right: solid 3px black;
+}
+
+/* code below is for about me section only */
+
+.about-me-text {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+/*code below is for work section only */
+
+.work {
+    padding-left: 20px;
+}
+
