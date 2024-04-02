@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    
 }
 /* Code below is for the header portion of the project */
 .header {
@@ -66,8 +68,7 @@ header li {
 /* Code below is for all sections sections */
 .section {
     display: flex;
-    
-    
+      
 }
 h3 {
     display: flex;
@@ -88,12 +89,16 @@ h3 {
 /*code below is for work section only */
 
 .work {
-    max-width: 500px;
-    padding-left: 20px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+    height: auto;
+    padding: 0px 20px 20px 20px;
 }
 
-.img {
-    max-width: 500px;
+img {
+   max-width: 100%;
 }
 
 section ul {
