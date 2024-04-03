@@ -11,15 +11,18 @@
     justify-content: space-between;
     padding: 15px;
     padding-left: 0px;
-    background-color: teal;
+    background-color: #40611A;
     align-items: center;
 }
 .header h1 {
-    background-color: white;
+    color: #40611A;
+    background-color: #D09CD9;
     padding-left: 100px;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-right: 15px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .header ul {
     display: flex;
@@ -27,32 +30,42 @@
     padding-right: 100px;
 }
 header li {
+    color: #ABDB72;
     padding: 5px;
     margin-left: 35px;
-    border-bottom: 2px solid white; 
+    border-bottom: 2px solid #ABDB72; 
 }
+.nav-link {
+    text-decoration: none;
+    color: #ABDB72;
+}
+
 /* Code below is for the div portion of the project */
 .hero {
     height: 300px;
     width: 100%;
-    margin-bottom: 30px;
-    background-image: url(../assets/Images/alex-shutin-kKvQJ6rK6S4-unsplash.jpg);
+    background-image: url(../assets/Images/aakash-dhage-aQVeOg9SiE8-unsplash.jpg);
     background-size: cover;
     background-position: center;
     
 }
 .hero h2 {
+    color: #D09CD9;
     display:inline-block;
-    padding: 10px;
-    background-color: white;
+    padding: 20px 133px 20px 20px;
+    background-color: #40611A;
     text-align: center;
     position: relative;
-    top: 70%;
-    left: 72.5%;
+    top: 65%;
+    left: 75%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
 }
 /* code below is for main area */
 .main {
-    margin: 5% 10% 10% 10%;
+    padding: 5% 15% 10% 10%;
+    background-color: #40611A;
 
 }
 /* Code below is for all sections sections */
@@ -68,39 +81,45 @@ header li {
     padding-right: 15px;
 }
 
+.main-text-assets {
+    color: #ABDB72;
+}
+
 .box-content {
     padding-left: 2%;
-    border-left: solid 3px black;
+    border-left: solid 3px #ABDB72;
 }
 /* code below is for about me section only */
 .About-Me-box {
     display: flex;
 }
+
 /*code below is for work section only */
 
 .work{
     width: 100%;
-    height: 1100px;
+    height: 700px;
     display: flex; 
 }
 
 .work-images {
-    margin: 0% 0% 2% 0%;
     width: 100%;
     height:auto;
     display: flex;
     flex-wrap: wrap; 
-    border-left: solid 3px black;
+    border-left: solid 3px #ABDB72;
     padding-left: 2%;
 }
 
 .project1 {
     width: 100%;
     height: auto;
-    background-image: url(../assets/Images/growtika-9WnjxT1NCoY-unsplash.jpg);
+    background-image: url(../assets/Images/code-refactor.jpeg);
     background-size: cover;
     background-position: center;
     margin-bottom: 2%;
+    border: solid 5px #D09CD9;
+    border-radius: 10px;
 }
 .project2 {
     width: 49%;
@@ -109,7 +128,9 @@ header li {
     background-size: cover;
     background-position: center;
     margin-right: 2%;
-    margin-bottom: 2%
+    margin-bottom: 2%;
+    border: solid 5px #D09CD9;
+    border-radius: 10px;
 }
 .project3 {
     width: 49%;
@@ -117,7 +138,9 @@ header li {
     background-image: url(../assets/Images/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    margin-bottom: 2%
+    margin-bottom: 2%;
+    border: solid 5px #D09CD9;
+    border-radius: 10px;
 }
 .project4 {
     width: 49%;
@@ -126,18 +149,27 @@ header li {
     background-size: cover;
     background-position: center;
     margin-right: 2%;
+    border: solid 5px #D09CD9;
+    border-radius: 10px;
 }
 .project5 {
     width: 49%;
     height: auto;
-    background-image: url(../assets/Images/patrick-tomasso-QMDap1TAu0g-unsplash.jpg);
+    background-image: url(../assets/Images/cat-laptop.jpg);
     background-size: cover;
     background-position: center;
+    border: solid 5px #D09CD9;
+    border-radius: 10px;
 }
-.work-image-text {
-    display:inline-block;
-    background-color: yellow;
-    padding: 10px;
+.overlay-text {
+    display: inline-block;
+    background-color: #D09CD9;
+    padding: 15px;
+    position: relative;
+    top: 55%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+   
 }
 /* code below is for the footer contact me area */
 
