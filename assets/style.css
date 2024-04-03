@@ -33,12 +33,13 @@ header li {
 }
 /* Code below is for the div portion of the project */
 .hero {
-    height: 250px;
+    height: 300px;
+    width: 100%;
     margin-bottom: 30px;
     background-image: url(../assets/Images/alex-shutin-kKvQJ6rK6S4-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    position: relative;
+    
 }
 .hero h2 {
     display:inline-block;
@@ -47,47 +48,101 @@ header li {
     text-align: center;
     position: relative;
     top: 70%;
-    left: 80%;
+    left: 72.5%;
 }
+/* code below is for main area */
 .main {
-    margin-left: 15%;
+    margin: 5% 10% 10% 10%;
+
 }
 /* Code below is for all sections sections */
 .info {
     display: flex;
     flex-direction: column;
 }
-h3 {
-    text-align: end;
+
+.h3-container {
+    min-width: 200px;
+    display: flex;
+    justify-content: flex-end;
     padding-right: 15px;
 }
+
 .box-content {
-    padding-left: 30px;
+    padding-left: 2%;
     border-left: solid 3px black;
 }
 /* code below is for about me section only */
 .About-Me-box {
     display: flex;
-    padding-right: 50px;
 }
 /*code below is for work section only */
-.work-box {
-    display: flex;
-    padding-right: 50px;   
+
+.work{
+    width: 100%;
+    height: 1100px;
+    display: flex; 
 }
-img {
-   max-width: 100%;
+
+.work-images {
+    margin: 0% 0% 2% 0%;
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-wrap: wrap; 
+    border-left: solid 3px black;
+    padding-left: 2%;
+}
+
+.project1 {
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/Images/growtika-9WnjxT1NCoY-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2%;
+}
+.project2 {
+    width: 49%;
+    height: auto;
+    background-image: url(../assets/Images/jexo-5OgJB9CVb68-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 2%;
+    margin-bottom: 2%
+}
+.project3 {
+    width: 49%;
+    height: auto;
+    background-image: url(../assets/Images/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2%
+}
+.project4 {
+    width: 49%;
+    height: auto;
+    background-image: url(../assets/Images/markus-spiske-cvBBO4PzWPg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 2%;
+}
+.project5 {
+    width: 49%;
+    height: auto;
+    background-image: url(../assets/Images/patrick-tomasso-QMDap1TAu0g-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .work-image-text {
-    display: inline-block;
+    display:inline-block;
     background-color: yellow;
     padding: 10px;
-    position: relative;
-    bottom: 100px;
 }
+/* code below is for the footer contact me area */
+
 .contact-me-box {
     display: flex;
-    padding-right: 50px;
 }
 .info ul {
     list-style: none;
