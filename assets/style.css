@@ -2,8 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family:Arial, Helvetica, sans-serif;
-    
+    font-family:Arial, Helvetica, sans-serif;  
 }
 /* Code below is for the header portion of the project */
 .header {
@@ -15,7 +14,6 @@
     background-color: teal;
     align-items: center;
 }
-
 .header h1 {
     background-color: white;
     padding-left: 100px;
@@ -23,29 +21,26 @@
     padding-bottom: 15px;
     padding-right: 15px;
 }
-
 .header ul {
     display: flex;
     list-style: none;
     padding-right: 100px;
 }
-
 header li {
     padding: 5px;
     margin-left: 35px;
     border-bottom: 2px solid white; 
 }
 /* Code below is for the div portion of the project */
-
 .hero {
-    height: 250px;
+    height: 300px;
+    width: 100%;
     margin-bottom: 30px;
     background-image: url(../assets/Images/alex-shutin-kKvQJ6rK6S4-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    position: relative;
+    
 }
-
 .hero h2 {
     display:inline-block;
     padding: 10px;
@@ -53,55 +48,103 @@ header li {
     text-align: center;
     position: relative;
     top: 70%;
-    left: 80%;
-
+    left: 72.5%;
 }
-
+/* code below is for main area */
 .main {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20%;
-    
-    
-}
+    margin: 5% 10% 10% 10%;
 
+}
 /* Code below is for all sections sections */
-.section {
-    display: flex;
-      
-}
-h3 {
-    display: flex;
-    text-align: end;
-    padding-right: 15px;
-    border-right: solid 3px black;
-}
-
-/* code below is for about me section only */
-
-.about-me-text {
+.info {
     display: flex;
     flex-direction: column;
-    padding: 0px 20px 20px 20px
-    
 }
 
+.h3-container {
+    min-width: 200px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+
+.box-content {
+    padding-left: 2%;
+    border-left: solid 3px black;
+}
+/* code below is for about me section only */
+.About-Me-box {
+    display: flex;
+}
 /*code below is for work section only */
 
-.work {
-    
+.work{
+    width: 100%;
+    height: 1100px;
+    display: flex; 
+}
+
+.work-images {
+    margin: 0% 0% 2% 0%;
+    width: 100%;
+    height:auto;
     display: flex;
-    flex-wrap: wrap;
-    max-width: 200px;
+    flex-wrap: wrap; 
+    border-left: solid 3px black;
+    padding-left: 2%;
+}
+
+.project1 {
+    width: 100%;
     height: auto;
-    padding: 0px 20px 20px 20px;
+    background-image: url(../assets/Images/growtika-9WnjxT1NCoY-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2%;
 }
-
-img {
-   max-width: 100%;
+.project2 {
+    width: 49%;
+    height: auto;
+    background-image: url(../assets/Images/jexo-5OgJB9CVb68-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 2%;
+    margin-bottom: 2%
 }
+.project3 {
+    width: 49%;
+    height: auto;
+    background-image: url(../assets/Images/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2%
+}
+.project4 {
+    width: 49%;
+    height: auto;
+    background-image: url(../assets/Images/markus-spiske-cvBBO4PzWPg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-right: 2%;
+}
+.project5 {
+    width: 49%;
+    height: auto;
+    background-image: url(../assets/Images/patrick-tomasso-QMDap1TAu0g-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.work-image-text {
+    display:inline-block;
+    background-color: yellow;
+    padding: 10px;
+}
+/* code below is for the footer contact me area */
 
-section ul {
+.contact-me-box {
+    display: flex;
+}
+.info ul {
     list-style: none;
 }
 
